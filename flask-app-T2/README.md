@@ -20,7 +20,7 @@ El cluster donde se desplego este aplicativo tiene el siguiente diseño :
 - cluster kubernetes con 2 nodos 1 master
 - Servidor NFS
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-6.png)
   
 ## Aplicacion flask 
 
@@ -46,10 +46,6 @@ kubectl apply -f .
 ```
 ### Verificacion despliegue
 
-
-
-
-
 ![Diagrama]()
 
 Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
@@ -67,8 +63,11 @@ helm install flask-app-mysql mysql-statefulset/ && helm install flask-app-two-ti
 ```
 helm list
 ```
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-2.png)
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-4.png)
+
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastuion-1.png)
 
 Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, su preferencia .
 
