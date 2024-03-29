@@ -22,6 +22,8 @@ El cluster donde se desplego este aplicativo tiene el siguiente diseño :
   
 ## Aplicacion flask 
 
+Esta es una aplicación Flask simple que interactúa con una base de datos MySQL. La aplicación permite a los usuarios enviar mensajes, que luego se almacenan en la base de datos y se muestran en la interfaz.
+
 ## Docker
 ## Kubernetes
 
