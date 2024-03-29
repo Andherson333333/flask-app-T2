@@ -44,6 +44,11 @@ Luego podemos entrar en cada una de ellas y lanzar el siguiente comando :
 ```
 kubectl apply -f .
 ```
+### Verificacion despliegue
+
+
+
+
 
 ![Diagrama]()
 
@@ -58,11 +63,10 @@ Para desplegarlo en la con los charts de helm , hay que ir a la carpeta llamada 
 helm install flask-app-mysql mysql-statefulset/ && helm install flask-app-two-tier two-tier-flask-app/
 ```
 
-## Verificacion del despligue
+### Verificacion del despligue
 ```
 helm list
 ```
-
 
 ![Diagrama]()
 
