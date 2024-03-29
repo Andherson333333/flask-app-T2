@@ -53,5 +53,5 @@ helm install mysql-app mysql-statefulset/
 ```
 ![Diagrama]()
 
-Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
+Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, su preferencia .
 
