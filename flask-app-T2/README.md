@@ -46,7 +46,7 @@ kubectl apply -f .
 ```
 ### Verificacion despliegue
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-7.png)
 
 ![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-5.png)
 
