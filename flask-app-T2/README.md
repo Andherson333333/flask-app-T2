@@ -41,6 +41,12 @@ Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe 
 
 ## Helm
 
+Para desplegarlo en la conlos charts de helm , hay que ir a la carpeta llamada helm y utilizar los siguientes comandos:
+
+helm install flask-app  two-tier-flask-app/
+
+helm install mysql-app mysql-statefulset/
+
 ![Diagrama]()
 
 Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
