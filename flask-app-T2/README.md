@@ -26,7 +26,7 @@ El cluster donde se desplego este aplicativo tiene el siguiente diseño :
 
 Esta es una aplicación Flask simple que interactúa con una base de datos MySQL. La aplicación permite a los usuarios enviar mensajes, que luego se almacenan en la base de datos y se muestran en la interfaz.
 
-![Diagrama]()
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-8.png)
 
 ## Docker
 
