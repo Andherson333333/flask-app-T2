@@ -48,6 +48,8 @@ kubectl apply -f .
 
 ![Diagrama]()
 
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/bastion-5.png)
+
 Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
 
 ## Helm
