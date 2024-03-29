@@ -19,16 +19,15 @@ El cluster donde se desplego este aplicativo tiene el siguiente diseño :
 - Bastion host
 - cluster kubernetes con 2 nodos 1 master
 - Servidor NFS 
-
-
-Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
-
   
 ## Aplicacion flask 
 
-
-
-
 ## Docker
 ## Kubernetes
+
+Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
+
 ## Helm
+
+Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
+
