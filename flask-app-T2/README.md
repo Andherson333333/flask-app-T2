@@ -41,12 +41,16 @@ Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe 
 
 ## Helm
 
-Para desplegarlo en la conlos charts de helm , hay que ir a la carpeta llamada helm y utilizar los siguientes comandos:
+Como estan en 2 charts de helm  por separados para modificar values , dentro de la siguiente  ruta se encuentra la aplicacion de python `flask-app-T2/flask-app-T2/helm/values.yaml` y en la siguiente ubicacion se encuentra los values de mysql  `flask-app-T2/flask-app-T2/helm/mysql-statefulset/values.yaml` 
 
+Para desplegarlo en la con los charts de helm , hay que ir a la carpeta llamada helm y utilizar los siguientes comandos:
+```
 helm install flask-app  two-tier-flask-app/
+```
 
+```
 helm install mysql-app mysql-statefulset/
-
+```
 ![Diagrama]()
 
 Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, se preferencia .
