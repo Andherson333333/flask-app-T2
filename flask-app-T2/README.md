@@ -30,7 +30,13 @@ Esta es una aplicación Flask simple que interactúa con una base de datos MySQL
 
 ## Docker
 
-![Diagrama]()
+Para desplegar el docker-compose se usa el siguiente comando :
+
+```
+docker-compose up
+```
+
+![Diagrama](https://github.com/Andherson333333/flask-app-T2/blob/main/flask-app-T2/imagenes/docker-ps.png)
 
 ## Kubernetes
 
