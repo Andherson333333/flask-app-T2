@@ -34,6 +34,16 @@ Esta es una aplicación Flask simple que interactúa con una base de datos MySQL
 
 ## Kubernetes
 
+Para desplegar con los manfiesto tiene que ir a la carpeta llamada k8s-manifiesto hay se encuentran 2 carpetas con el siguiente nombre :
+
+- flask-app
+- mysql
+
+Luego podemos entrar en cada una de ellas y lanzar el siguiente comando :
+
+```
+kubectl apply -f .
+```
 
 ![Diagrama]()
 
@@ -45,12 +55,15 @@ Como estan en 2 charts de helm  por separados para modificar values , dentro de 
 
 Para desplegarlo en la con los charts de helm , hay que ir a la carpeta llamada helm y utilizar los siguientes comandos:
 ```
-helm install flask-app  two-tier-flask-app/
+helm install flask-app-mysql mysql-statefulset/ && helm install flask-app-two-tier two-tier-flask-app/
 ```
 
+## Verificacion del despligue
 ```
-helm install mysql-app mysql-statefulset/
+helm list
 ```
+
+
 ![Diagrama]()
 
 Nota : Este despligue se puede realizar en cualquier cluster de kubernetes cabe destacar que , se tiene que modificar la ubicacion del pv segun, su preferencia .
