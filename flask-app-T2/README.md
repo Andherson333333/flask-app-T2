@@ -30,9 +30,11 @@ Esta es una aplicación Flask simple que interactúa con una base de datos MySQL
 
 ## Archivos y carpetas
 
-
-
-
+`helm`chart de helm y values 
+`k8s-manifiesto` manifiesto de kubernetes
+`Dockerfile` dockerizacion de la aplicaicon
+`docker-compose` despliegue con docker compose
+`message.sql` creacion de la base de datos
 
 ## Docker
 
